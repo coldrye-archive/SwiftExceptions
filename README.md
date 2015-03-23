@@ -1,2 +1,29 @@
 # SwiftExceptions
-Adds exception handling to Swift by extending NSException with try/catch/finally methods.
+Brings exception handling to Swift.
+
+## License
+
+Apache 2.0 License
+
+## Usage
+
+```swift
+import SwiftExceptions
+
+try(
+    {
+        // ...
+    },
+catch: { exception in
+        // ...
+    },
+finally: {
+        // ...
+    }
+)
+```
+
+## Contributing
+
+Feel free to contribute by filing issues and providing pull requests.
+
